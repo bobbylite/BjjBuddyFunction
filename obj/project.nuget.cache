@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "OFy/4SBSscsf7WuVoa3L9WlP33KbDpz0J3ZU+zIDzXj2mPu6PvhW2eaRtG6s8zQPxdpRMg43uTt/9ce+BUjeZw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Robert Luisi\\source\\repos\\BjjBuddy\\BjjBuddy\\BjjBuddy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Robert Luisi\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.1.0\\amazon.lambda.apigatewayevents.2.1.0.nupkg.sha512",
+    "C:\\Users\\Robert Luisi\\.nuget\\packages\\amazon.lambda.core\\1.1.0\\amazon.lambda.core.1.1.0.nupkg.sha512",
+    "C:\\Users\\Robert Luisi\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.0.0\\amazon.lambda.serialization.systemtextjson.2.0.0.nupkg.sha512",
+    "C:\\Users\\Robert Luisi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

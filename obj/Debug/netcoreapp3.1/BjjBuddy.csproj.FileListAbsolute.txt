@@ -1,0 +1,12 @@
+C:\Users\Robert Luisi\source\repos\BjjBuddy\BjjBuddy\bin\Debug\netcoreapp3.1\BjjBuddy.deps.json
+C:\Users\Robert Luisi\source\repos\BjjBuddy\BjjBuddy\bin\Debug\netcoreapp3.1\BjjBuddy.runtimeconfig.json
+C:\Users\Robert Luisi\source\repos\BjjBuddy\BjjBuddy\bin\Debug\netcoreapp3.1\BjjBuddy.runtimeconfig.dev.json
+C:\Users\Robert Luisi\source\repos\BjjBuddy\BjjBuddy\bin\Debug\netcoreapp3.1\BjjBuddy.dll
+C:\Users\Robert Luisi\source\repos\BjjBuddy\BjjBuddy\obj\Debug\netcoreapp3.1\BjjBuddy.csprojAssemblyReference.cache
+C:\Users\Robert Luisi\source\repos\BjjBuddy\BjjBuddy\obj\Debug\netcoreapp3.1\BjjBuddy.AssemblyInfoInputs.cache
+C:\Users\Robert Luisi\source\repos\BjjBuddy\BjjBuddy\obj\Debug\netcoreapp3.1\BjjBuddy.AssemblyInfo.cs
+C:\Users\Robert Luisi\source\repos\BjjBuddy\BjjBuddy\obj\Debug\netcoreapp3.1\BjjBuddy.genruntimeconfig.cache
+C:\Users\Robert Luisi\source\repos\BjjBuddy\BjjBuddy\bin\Debug\netcoreapp3.1\BjjBuddy.pdb
+C:\Users\Robert Luisi\source\repos\BjjBuddy\BjjBuddy\obj\Debug\netcoreapp3.1\BjjBuddy.csproj.CoreCompileInputs.cache
+C:\Users\Robert Luisi\source\repos\BjjBuddy\BjjBuddy\obj\Debug\netcoreapp3.1\BjjBuddy.dll
+C:\Users\Robert Luisi\source\repos\BjjBuddy\BjjBuddy\obj\Debug\netcoreapp3.1\BjjBuddy.pdb

@@ -30,10 +30,6 @@ namespace BjjBuddy.Model
 
                 Credentials credentials = sessionTokenResponse.Credentials;
 
-                var sessionCredentials =
-                    new SessionAWSCredentials(credentials.AccessKeyId,
-                                              credentials.SecretAccessKey,
-                                              credentials.SessionToken);
                 return new CredentialModel
                 {
                     Key = credentials.AccessKeyId,

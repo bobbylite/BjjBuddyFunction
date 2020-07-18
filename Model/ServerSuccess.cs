@@ -7,5 +7,6 @@ namespace BjjBuddy.Model
 	public class ServerSuccess
 	{
 		public string ResponseMessage { get; set; }
+		public string Data { get; set; }
 	}
 }

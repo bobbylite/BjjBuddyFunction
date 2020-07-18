@@ -5,6 +5,11 @@ using System;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using BjjBuddy.Model;
+using Amazon.DynamoDBv2;
+using Amazon.DynamoDBv2.Model;
+using Amazon.DynamoDBv2.DocumentModel;
+using System.Threading.Tasks;
+using Amazon.Runtime;
 
 // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
 [assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]
@@ -32,7 +37,8 @@ namespace BjjBuddy
                     Body = JsonConvert.SerializeObject(
                         new ServerSuccess
                         {
-                            ResponseMessage = $"Bjj Buddy Response - {DateTime.Now.ToString("hh:mm:ss")}"
+                            ResponseMessage = $"Bjj Buddy Response - {DateTime.Now.ToString("hh:mm:ss")}",
+                            Data = string.Empty
                         }),
                     Headers = new Dictionary<string, string> { { "Content-Type", "application/json" } }
                 };
@@ -50,7 +56,34 @@ namespace BjjBuddy
                 };
             }
 
+            AmazonDynamoDbQuery("tablename", "context");
             return response;
+        }
+
+        /// <summary>
+        /// Amazon DynamoDB Query Test
+        /// </summary>
+        /// <param name="input"></param>
+        /// <param name="context"></param>
+        /// <returns></returns>
+        public async Task<DynamoObject<Document>> AmazonDynamoDbQuery(string tableName, string context)
+        {
+            DynamoObject<Document> dynamoQueryResponse = new DynamoObject<Document>();
+
+            try
+            {
+                using(var client = new AmazonDynamoDBClient(new BjjBuddyCredentials()))
+                {
+                    var test = client.Config;
+                    Table bjjBuddy = Table.LoadTable(client, "BjjBuddy");
+                    dynamoQueryResponse.Data = await bjjBuddy.GetItemAsync("Test");
+                }
+            }
+            catch (Exception exception)
+            {
+            }
+
+            return dynamoQueryResponse;
         }
     }
 }
